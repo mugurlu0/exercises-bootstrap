@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initiation Boostrap</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <style>.purple {
+        background: #caa0f5;
+    }</style>
+</head>
+
+<body>
+    <div class="container text-center">
+        <h4>I - blocs positioning</h4>
+        <div class=row>
+            <div class="col-12 purple border border-dark rounded">
+                12 colonnes
+                <div class=row>
+                    <div class="col-2 offset-1 purple border border-dark rounded">
+                        Coucou
+                    </div>
+                    <div class="col-3 offset-2 purple border border-dark rounded">
+                        ça
+                    </div>
+                    <div class="col-2 offset-2 purple border border-dark rounded">
+                        va ?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <h4>II - imbricated elements</h4>
+        <div class=row>
+            <div class="col-4 purple border border-dark rounded align-self-start">
+                Nouvel
+            </div>
+            <div class="col purple border border-dark rounded">
+                <strong>Exercice</strong>
+                <div class=row>
+                    <div class="col-3 purple border border-dark rounded">
+                        ces
+                    </div>
+                    <div class="col-6 purple border border-dark rounded">
+                        blocs sont tous
+                    </div>
+                    <div class="col-3 purple border border-dark rounded">
+                        dans
+                    </div>
+                </div>
+                <div class=row>
+                    <div class="col purple border border-dark rounded">
+                        la même
+                    </div>
+                    <div class="col purple border border-dark rounded">
+                        div où est
+                    </div>
+                    <div class="col purple border border-dark rounded">
+                        inscrit <strong>"Exercice"</strong>
+                    </div>
+                </div>
+                <div class=row>
+                    <div class="col purple border border-dark rounded">
+                        comment
+                    </div>
+                    <div class="col-2 purple border border-dark rounded">
+                        est
+                    </div>
+                    <div class="col purple border border-dark rounded">
+                       ce possible
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <h4>III - change elements order</h4>
+        <div class=row>
+            <div class="col-12 purple border border-dark rounded">
+                12 colonnes
+                <div class=row>
+                    <div class="col-2 offset-1 order-first purple border border-dark rounded">
+                        Bloc 1 de 2
+                    </div>
+                    <div class="col-2 offset-2 order-last purple border border-dark rounded">
+                        Bloc 2 de 2
+                    </div>
+                    <div class="col-2 offset-2 order-second purple border border-dark rounded">
+                        Bloc 3 de 2
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="container text-center">
+        <h4>IV - practice makes good</h4>
+        <div class=row>
+            <div class="col-6 purple border border-dark rounded">
+                6 colonnes
+                <div class=row>
+                    <div class="col-4 purple border border-dark rounded">
+                        4 colonnes
+                    </div>
+                    <div class="col-4 offset-4 purple border border-dark rounded">
+                        4 colonnes
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 purple border border-dark rounded">
+                6 colonnes
+                <div class=row>
+                    <div class="col-4 purple border border-dark rounded">
+                        4 colonnes
+                    </div>
+                    <div class="col-8 purple border border-dark rounded">
+                        8 colonnes
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <h4 id=titre-v>V - responsive layout</h4>
+        <div class="row">
+            <div class="col-4 col-xl-3">
+                <div class="p-2 mb-2 border border-dark bg-light">Logo (1/3)</div>
+            </div>
+            <div class="col-8 col-xl-9">
+                <div class="p-2 mb-2 border border-dark bg-light">Titre (2/3)</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-xl-12">
+                <div class="p-2 mb-2 border border-dark bg-light">Hero (1/1)</div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-xl-3">
+            <div class="col">
+                <div class="p-2 mb-2 border border-dark bg-light">Zone 1</div>
+            </div>
+            <div class="col">
+                <div class="p-2 mb-2 border border-dark bg-light">Zone 2</div>
+            </div>
+            <div class="col">
+                <div class="p-2 mb-2 ml-xl-5 border border-dark bg-light">Zone 3</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 col-xl-6">
+                <div class="p-2 mb-2 border border-dark bg-light">Zone 5 (1/2)</div>
+            </div>
+            <div class="col-4 col-xl-6">
+                <div class="p-2 mb-2 border border-dark bg-light">Zone 6 (1/2)</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-xl-12">
+                <div class="p-2 mb-2 border border-dark bg-light">Footer</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
